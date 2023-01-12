@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.box{
+   display: flex;
+   flex-direction: column;
+   justify-content: baseline;
+   justify-self: center;
+   align-content: center;
+   align-self: center;
+   gap: 3rem;
+   text-align: center; 
+   margin: 5rem;
+   margin-bottom: 3rem;
+   padding-top: 1.5rem;
+   background-color: rgb(126, 215, 240);
+   padding: 2rem;
+   border-radius: 1rem;
+}
+#quotes{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#author{
+    text-align: right;
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+#newQ{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: 3rem;
+    transform: translate(-50%,-50%);
+    background-color: greenyellow;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: black;
+    font-weight: 600;
+}
